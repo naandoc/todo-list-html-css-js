@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Lista de tarefas</title>
+</head>
+
+<body>
+    <div class="main-container centralizer">
+        <div class="add-tarefa">
+            <h1>Lista de tarefas</h1>
+            <div class="tasks">
+                <input type="text" class="input-add-tarefa" id="addTarefa">
+                <button class="btnAddTarefa">Adicionar tarefa</button>
+            </div>
+        </div>
+        <div class="inserted-tasks">
+            <ul>
+                <!-- <li class="task-done">
+                    <p>Estudar</p>
+                    <div class="buttons-container">
+                        <button>Apagar</button>
+                        <button>Editar</button>
+                        <button>Concluir</button>
+                    </div>
+                    <div class="input-edita-tarefa">
+                        <label for="edita-tarefa">Editar tarefa</label>
+                        <input type="text" id="edita-tarefa">
+                        <button>Editar</button>
+                    </div>                    
+                </li> -->
+            </ul>
+            <div class="field-edita-tarefa hide">
+                <label for="edita-tarefa">Editar tarefa</label>
+                <input type="text" id="edita-tarefa" class="edita-tarefa">
+                <button class="btn-add-tarefa-editada">Editar</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

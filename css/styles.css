@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(4, 105, 105);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+input {
+    outline: none;
+}
+
+.centralizer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    width: 40%;
+    min-width: 430px;
+    background-color: #e9e4e4;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem 1rem;
+    gap: .8rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+.tasks {
+    font-size: 3rem;
+}
+
+.inserted-tasks {
+    width: 100%;
+}
+
+.inserted-tasks ul {
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    width: 85%;
+}
+
+.inserted-tasks li {
+    display: flex;
+    gap: .4rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: .3rem .4rem;
+    width: 80%;
+    border-radius: 2px;
+    transition: all 100ms;
+}
+.inserted-tasks li:hover {
+    background-color: rgb(128, 113, 113);
+}
+
+.buttons-container {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    gap: .4rem;
+    padding-right: 4rem;
+}
+
+.task-done {
+    background-color: rgb(100, 94, 94);
+    text-decoration: line-through;
+}
+
+button {
+    padding: .1rem .2rem;
+}
+
+#edita-tarefa {
+    margin-left: .5rem;
+}
+
+.hide {
+    display: none;
+}
+
+/* .input-edita-tarefa {
+    display: none;
+} */
